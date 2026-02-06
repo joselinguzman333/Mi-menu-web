@@ -1,0 +1,40 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi menú</title>
+
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #0077cc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="#">invierno</a></li>
+    <li><a href="#">primavera</a></li>
+    <li><a href="#">verano</a></li>
+  </ul>
+
+</body>
+</html>
